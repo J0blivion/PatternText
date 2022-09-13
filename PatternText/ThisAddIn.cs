@@ -50,7 +50,14 @@ namespace PatternText
             this.Startup += new System.EventHandler(ThisAddIn_Startup);
             this.Shutdown += new System.EventHandler(ThisAddIn_Shutdown);
         }
-        
+
         #endregion
+
+        protected override Office.IRibbonExtensibility CreateRibbonExtensibilityObject()
+        {
+            Ribbon2 ribbon = new Ribbon2();
+            return Globals.Factory.GetRibbonFactory().CreateRibbonManager(
+                new Microsoft.Office.Tools.Ribbon.IRibbonExtension[] { ribbon });
+        }
     }
 }
