@@ -32,7 +32,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Apply = new System.Windows.Forms.Button();
+            this.Cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,14 +56,20 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Location = new System.Drawing.Point(62, 10);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.Location = new System.Drawing.Point(62, 38);
             this.textBox2.Multiline = true;
@@ -70,17 +77,34 @@
             this.textBox2.Size = new System.Drawing.Size(241, 86);
             this.textBox2.TabIndex = 3;
             // 
-            // button1
+            // Apply
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Window;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.Location = new System.Drawing.Point(276, 139);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Apply.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Apply.BackColor = System.Drawing.SystemColors.Window;
+            this.Apply.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.Apply.FlatAppearance.BorderSize = 2;
+            this.Apply.Location = new System.Drawing.Point(196, 143);
+            this.Apply.Name = "Apply";
+            this.Apply.Size = new System.Drawing.Size(75, 23);
+            this.Apply.TabIndex = 4;
+            this.Apply.Text = "Применить";
+            this.Apply.UseVisualStyleBackColor = false;
+            this.Apply.Click += new System.EventHandler(this.Apply_Click);
+            // 
+            // Cancel
+            // 
+            this.Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Cancel.BackColor = System.Drawing.SystemColors.Window;
+            this.Cancel.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Cancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.Cancel.FlatAppearance.BorderSize = 2;
+            this.Cancel.Location = new System.Drawing.Point(277, 143);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(75, 23);
+            this.Cancel.TabIndex = 5;
+            this.Cancel.Text = "Отмена";
+            this.Cancel.UseVisualStyleBackColor = false;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // Form2
             // 
@@ -88,11 +112,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(364, 169);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Cancel);
+            this.Controls.Add(this.Apply);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(380, 208);
+            this.MinimumSize = new System.Drawing.Size(380, 208);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Шаблон";
@@ -107,6 +134,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Apply;
+        private System.Windows.Forms.Button Cancel;
     }
 }

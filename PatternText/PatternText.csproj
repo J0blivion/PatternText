@@ -185,6 +185,7 @@
     <EmbeddedResource Include="Ribbon2.resx">
       <DependentUpon>Ribbon2.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="PatternText_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

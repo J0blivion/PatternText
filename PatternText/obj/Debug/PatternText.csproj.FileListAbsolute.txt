@@ -12,3 +12,5 @@ D:\PatternText\PatternText\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utiliti
 D:\PatternText\PatternText\obj\Debug\PatternText.csproj.CopyComplete
 D:\PatternText\PatternText\obj\Debug\PatternText.dll
 D:\PatternText\PatternText\obj\Debug\PatternText.pdb
+D:\PatternText\PatternText\obj\Debug\PatternText.Form2.resources
+D:\PatternText\PatternText\bin\Debug\PatternText.dll.config

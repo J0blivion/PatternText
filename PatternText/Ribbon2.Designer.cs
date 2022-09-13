@@ -36,7 +36,7 @@
         {
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
-            this.button1 = this.Factory.CreateRibbonButton();
+            this.Modify = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.group1.SuspendLayout();
             this.SuspendLayout();
@@ -49,23 +49,23 @@
             // 
             // group1
             // 
-            this.group1.Items.Add(this.button1);
+            this.group1.Items.Add(this.Modify);
             this.group1.Label = "Шаблон";
             this.group1.Name = "group1";
             // 
-            // button1
+            // Modify
             // 
-            this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button1.Label = "Изменить";
-            this.button1.Name = "button1";
-            this.button1.ScreenTip = "Изменить шаблон";
-            this.button1.ShowImage = true;
-            this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
+            this.Modify.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.Modify.Label = "Изменить";
+            this.Modify.Name = "Modify";
+            this.Modify.ScreenTip = "Изменить шаблон";
+            this.Modify.ShowImage = true;
+            this.Modify.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Modify_Click);
             // 
             // Ribbon2
             // 
             this.Name = "Ribbon2";
-            this.RibbonType = "Microsoft.Outlook.Mail.Compose";
+            this.RibbonType = "Microsoft.Outlook.Explorer, Microsoft.Outlook.Mail.Compose";
             this.Tabs.Add(this.tab1);
             this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.Ribbon2_Load);
             this.tab1.ResumeLayout(false);
@@ -80,7 +80,7 @@
 
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
-        internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton Modify;
     }
 
     partial class ThisRibbonCollection

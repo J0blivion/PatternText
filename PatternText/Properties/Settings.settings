@@ -1,7 +1,12 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PatternText.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Body" Type="System.String" Scope="User">
+      <Value Profile="(Default)">This text was added by using code</Value>
+    </Setting>
+    <Setting Name="Subject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">This text was added by using code</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

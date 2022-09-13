@@ -19,8 +19,8 @@ namespace PatternText
             {
                 if (mailItem.EntryID == null)
                 {
-                    mailItem.Subject = "This text was added by using code";
-                    mailItem.Body = "This text was added by using code";
+                    mailItem.Subject = Properties.Settings.Default.Subject;
+                    mailItem.Body = Properties.Settings.Default.Body;
                 }
 
             }

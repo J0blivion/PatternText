@@ -22,5 +22,29 @@ namespace PatternText.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("This text was added by using code")]
+        public string Body {
+            get {
+                return ((string)(this["Body"]));
+            }
+            set {
+                this["Body"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("This text was added by using code")]
+        public string Subject {
+            get {
+                return ((string)(this["Subject"]));
+            }
+            set {
+                this["Subject"] = value;
+            }
+        }
     }
 }

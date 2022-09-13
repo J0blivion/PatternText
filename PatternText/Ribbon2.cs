@@ -13,9 +13,10 @@ namespace PatternText
 
         }
 
-        private void button1_Click(object sender, RibbonControlEventArgs e)
+        private void Modify_Click(object sender, RibbonControlEventArgs e)
         {
-
+            Form2 f = new Form2();
+            f.ShowDialog();
         }
     }
 }

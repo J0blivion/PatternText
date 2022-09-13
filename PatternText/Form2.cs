@@ -15,7 +15,26 @@ namespace PatternText
         public Form2()
         {
             InitializeComponent();
+            textBox1.Text = Properties.Settings.Default.Subject;
+            textBox2.Text = Properties.Settings.Default.Body;
         }
 
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Apply_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Subject = textBox1.Text; // Записываем содержимое richTextBox1 в Save_text
+            Properties.Settings.Default.Body = textBox2.Text;
+            Properties.Settings.Default.Save(); // Сохраняем переменные.
+            MessageBox.Show("Шаблон сохранен", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
