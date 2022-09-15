@@ -56,6 +56,7 @@
             // Modify
             // 
             this.Modify.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.Modify.Image = global::PatternText.Properties.Resources.post_icon;
             this.Modify.Label = "Изменить";
             this.Modify.Name = "Modify";
             this.Modify.ScreenTip = "Изменить шаблон";
@@ -65,7 +66,7 @@
             // Ribbon2
             // 
             this.Name = "Ribbon2";
-            this.RibbonType = "Microsoft.Outlook.Explorer, Microsoft.Outlook.Mail.Compose";
+            this.RibbonType = "Microsoft.Outlook.Explorer";
             this.Tabs.Add(this.tab1);
             this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.Ribbon2_Load);
             this.tab1.ResumeLayout(false);

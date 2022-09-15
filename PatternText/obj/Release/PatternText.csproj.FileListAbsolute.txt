@@ -1,0 +1,16 @@
+D:\PatternText\PatternText\bin\Release\PatternText.dll.config
+D:\PatternText\PatternText\bin\Release\PatternText.dll
+D:\PatternText\PatternText\bin\Release\PatternText.pdb
+D:\PatternText\PatternText\bin\Release\PatternText.dll.manifest
+D:\PatternText\PatternText\bin\Release\PatternText.vsto
+D:\PatternText\PatternText\bin\Release\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\PatternText\PatternText\bin\Release\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+D:\PatternText\PatternText\obj\Release\PatternText.csproj.AssemblyReference.cache
+D:\PatternText\PatternText\obj\Release\PatternText.Form2.resources
+D:\PatternText\PatternText\obj\Release\PatternText.Properties.Resources.resources
+D:\PatternText\PatternText\obj\Release\PatternText.Ribbon2.resources
+D:\PatternText\PatternText\obj\Release\PatternText.csproj.GenerateResource.cache
+D:\PatternText\PatternText\obj\Release\PatternText.csproj.CoreCompileInputs.cache
+D:\PatternText\PatternText\obj\Release\PatternText.csproj.CopyComplete
+D:\PatternText\PatternText\obj\Release\PatternText.dll
+D:\PatternText\PatternText\obj\Release\PatternText.pdb
