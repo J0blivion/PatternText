@@ -3,10 +3,11 @@
   <Profiles />
   <Settings>
     <Setting Name="Body" Type="System.String" Scope="User">
-      <Value Profile="(Default)">This text was added by using code</Value>
+      <Value Profile="(Default)">Надстройка PatternText позволяет автоматически добавлять тему и текст письма при создании нового сообщения.
+Чтобы изменить текст или тему перейдите во вкладку шаблон на главной ленте Outlook.</Value>
     </Setting>
     <Setting Name="Subject" Type="System.String" Scope="User">
-      <Value Profile="(Default)">This text was added by using code</Value>
+      <Value Profile="(Default)">Тема письма</Value>
     </Setting>
   </Settings>
 </SettingsFile>

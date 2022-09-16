@@ -73,9 +73,9 @@ namespace PatternText.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap post_icon {
+        internal static System.Drawing.Bitmap edit_pencil_modify_write_icon_179065 {
             get {
-                object obj = ResourceManager.GetObject("post_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("edit_pencil_modify_write_icon_179065", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

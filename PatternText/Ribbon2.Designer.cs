@@ -56,7 +56,7 @@
             // Modify
             // 
             this.Modify.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.Modify.Image = global::PatternText.Properties.Resources.post_icon;
+            this.Modify.Image = global::PatternText.Properties.Resources.edit_pencil_modify_write_icon_179065;
             this.Modify.Label = "Изменить";
             this.Modify.Name = "Modify";
             this.Modify.ScreenTip = "Изменить шаблон";

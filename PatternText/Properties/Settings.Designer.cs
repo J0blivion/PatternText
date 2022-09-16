@@ -25,7 +25,9 @@ namespace PatternText.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("This text was added by using code")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Надстройка PatternText позволяет автоматически добавлять тему и текст письма при " +
+            "создании нового сообщения.\r\nЧтобы изменить текст или тему перейдите во вкладку ш" +
+            "аблон на главной ленте Outlook.")]
         public string Body {
             get {
                 return ((string)(this["Body"]));
@@ -37,7 +39,7 @@ namespace PatternText.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("This text was added by using code")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Тема письма")]
         public string Subject {
             get {
                 return ((string)(this["Subject"]));
